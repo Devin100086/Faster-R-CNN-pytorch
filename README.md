@@ -1,4 +1,4 @@
-# Faster-RCNN-pytorch
+# Faster R-CNN-pytorch
 implement Faster R-CNN by Pytorch
 This code Learned from [https://github.com/chenyuntc/simple-faster-rcnn-pytorch.git]()，And I personally made relevant optimizations, such as adding a video target detection algorithm.
 
