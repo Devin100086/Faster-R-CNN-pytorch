@@ -71,18 +71,14 @@ Dataset: We mainly conducted related experiments on **VOC2007** and **VOC2012**,
    python infer.py 
    ```
 
-   if you want to evaluate other Pre-training weight or other video, you just modify **line 75 and line 61 and 63 of infer.py**:
+   If you want to evaluate other Pre-training weight or other video, you just modify **line 75 and line 61 and 63 of infer.py**:
 
    ```python
    trainer.load('save/fasterrcnn_09071339_0.6984935332483329')
    cap = cv2.VideoCapture("misc/playing_ball.mp4")
    ```
 
-   and the example is as follow:
-
-   <details open>
-       assets/test_in_video.mp4
-   </details>
+   And you can see in the example in the assets/test_in_video.mp4.
 
 ## :mag:Results
 
